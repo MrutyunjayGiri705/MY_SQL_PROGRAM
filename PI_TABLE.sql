@@ -1,0 +1,10 @@
+CREATE DATABASE pi;
+USE pi;
+CREATE TABLE user(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+gender ENUM('M','F','Other')
+);
+SELECT * FROM user;
+SELECT id,name FROM user;
+
